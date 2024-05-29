@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply m-5 px-[10px] py-[15px] border-none rounded-md bg-[#3d71d3] text-white;
+  }
+
+  span {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-xl font-bold;
+  }
+}
